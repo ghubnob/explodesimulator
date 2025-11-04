@@ -1,0 +1,7 @@
+name: ExplosionSimulator
+version: '${version}'
+main: com.testprojtime.explosionsimulator.ExplosionSimulator
+commands:
+  ping: {}
+  upgrade: {}
+  givemetnt: {}

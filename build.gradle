@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.testprojtime.explosionsimulator'
+version = '1.0'
+
+repositories {mavenCentral()}
+
+dependencies {
+    compileOnly files('libs/spigot-api-1.12.2-R0.1-SNAPSHOT.jar')
+    compileOnly files('libs/patched_1.12.2.jar')
+    compileOnly files('libs/ProtocolLib.jar')
+}
